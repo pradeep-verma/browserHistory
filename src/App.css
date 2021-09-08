@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.top-section {
+  background-color: #3367d6;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.app-logo {
+  height: 20px;
+  width: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2850a7;
+  border-radius: 4px;
+  border: 1px solid #6697ff;
+  margin: auto;
+}
+.search-icon {
+  height: 22px;
+  width: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.input-elemet {
+  height: 34px;
+  width: 40vw;
+  border: none;
+  border-radius: 4px;
+  border-left: 1px solid #6697ff;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 13px;
+  padding-left: 10px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #2850a7;
+  outline: none;
+}
+.bottom-section {
+  min-height: 90vh;
+  padding: 30px;
+  background-color: #f8fafc;
+}
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.ul-element {
+  padding: 20px;
+  padding-left: 0px;
+  list-style-type: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px 0px #ececec;
+}
+@media screen and (min-width: 768px) {
+  .top-section {
+    height: 60px;
+    padding: 5px;
+  }
+  .app-logo {
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .search-icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .input-elemet {
+    height: 40px;
+    width: 40vw;
+    max-width: 400px;
+  }
+}
