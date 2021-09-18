@@ -139,7 +139,7 @@ class App extends Component {
             <ul>
               {searchResult.map(eachItem => (
                 <BrowserHistory
-                  keys={eachItem.id}
+                  key={eachItem.id}
                   eachItem={eachItem}
                   deleteListItem={this.deleteListItem}
                 />

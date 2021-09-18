@@ -17,7 +17,12 @@ const BrowserHistory = props => {
           <p className="title">{title}</p>
           <p className="domain-url">{domainUrl}</p>
         </div>
-        <button type="button" id="delete" onClick={onDeleteItem}>
+        <button
+          className="delete-btn"
+          type="button"
+          testid="delete"
+          onClick={onDeleteItem}
+        >
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
             className="delete-icon"
